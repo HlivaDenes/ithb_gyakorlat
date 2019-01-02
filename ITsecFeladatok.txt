@@ -1,0 +1,59 @@
+Feladat 1. Egy tetszõlegesen kiválasztott weboldalról gyûjtsünk információkat.
+
+Mindent dokumentáljunk!
+(serversniff, whois, dig, netcraft, etc.)
+
+Határidõ: március 16.
+
+Feladat 2.
+
+Egy tetszõlegesen kiválasztott PentesterLab topic write up-ját kérném, 
+ami természetesen WebApp releváns, mint pl. a következõk:
+
+https://pentesterlab.com/exercises/php_include_and_post_exploitation (Elég az inclusion-ig)
+https://pentesterlab.com/exercises/from_sqli_to_shell (Elég az injection-ig)
+https://pentesterlab.com/exercises/from_sqli_to_shell_pg_edition (Elég az injection-ig)
+https://pentesterlab.com/exercises/from_sqli_to_shell_II (Elég az injection-ig)
+https://pentesterlab.com/exercises/web_for_pentester (Ebbõl természetesen a maradékból)
+https://pentesterlab.com/exercises/web_for_pentester_II
+https://pentesterlab.com/exercises/xss_and_mysql_file
+
+FONTOS! 
+A feladatokat reprodukálni kell és Screenshot-ot, Proof of Concept (PoC) 
+Request-et és PoC Response-t kérnénk mellékelni a dokumentumban.
+
+Határidõ: március 16.
+
+Feladat 3.
+
+A mellékelt app egy naiv rootdetekciós algoritmust futtat le, 
+az eredménytõl függõen pedig megjelenít egy szöveget a felhasználónak. 
+A feladat az, hogy egy rootolt telefonon jelenítse meg az app a 
+tiszta eszközhöz tartozó üzenetet.
+Bónusz pontért minél több módot találjunk rá!
+
+Határidõ: Április 14. 
+
+Feladat 4.
+A kriptográfia elõadáshoz (CryptoELTE.pdf) kérek mindenkitõl 3 olyan slide-ot pptx-ben, ami
+lényeges elemekkel kiegészíti, esetleg javítja a meglévõeket. Bármely részhez.
+
+Határidõ: Április 14. 
+
+Feladat 5.
+Az alábbi hash-rõl annyit tudunk, hogy MD5-tel lett generálva sózás nélkül:
+785073c646dd69ecf537acd4128418e9
+
+Írjuk le, mit lehet vele kezdeni.
+
+Határidõ: Május 14.
+
+Feladat 6.
+
+Elcsíptünk egy üzenetet, amiben egy 2048 bites RSA nyilvános kulcsot találtunk:
+
+NDYyMzIzMTM0MjMyMDY2Njc3NTE0NzkxMDM5MTcxMzAwNTg1ODQ3MTU4NzQ3MTg1NDk3MDY2OTY3MjQwMDkwODAxMjU1NDE3Nzc2MDE2MzYyNjg0MjI0MjYyNzkzNw0KNDA3MzQ0MzE1NTczMjQ5MzMxODc1Njg1ODg3NDgwNDA1Njg2MTg1ODQ2MzI2MTcyNzUzMzIyMjY0Mzg1NzY3NDU2MTA5ODk4NTc2MzUxMzYwMzk5NzM4NDk4NzgxMA0KNDk2MTYxNTYzNjY4NTQzMjgwNDgzMDc5NTk2OTc4MTAxNzQ4MTQ3Mzg3MzgyMzc0NjI1MDA0NDQ3ODgzNTMyNDUyODY1NTc4MDA4MzQwNzI3MzQyNDI2OTE5MzY5MQ0KOTA1MjcyMzcxNTU5NzcyMDU5ODQ0MTc4ODA4MDMxODUyNDc3NDU5NjY0NDUyMzk3MjAzNTAwMDUzNzY2OTMxOTc3NzQzMzQ5OTI5MjEyNDg1NDc1MDY1MzQyNDI2NA0KNTgwMDAzMjEyOTM2Mjg4MDg4MDgyNTA1MDg4ODg0Mzc0MzQxNTYyNTcwMTk4NzM3NzIxODQzNTMzMjg4NzUxMDg2NzMxNjMzMzE5MjUwNTA1NzQyMTAyNDcyMzEwMQ0KNjg5NTA3NDkyMjk1MjA3NTMxNzAyNjYxODU4OTYzOTE5MDA0ODQ5NDM4MTkyMjkyOTIyNTUxMTUxODc1MDYyNTA4NDU3MDczMDIxNTQ0NTQwMzU1OTUwOTA4Mjc0NQ0KNjUzMTk4Mjc0OTUyNDM2NjgxODk1NDg1MzQ2NjA4MTk2OTEwODgyNDAyMDg1OTY1MjI0Mjk=
+
+A üzenetben utaltak arra, hogy a kulcs gyenge. Valóban az?
+
+Határidõ: Június 10.
